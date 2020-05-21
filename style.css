@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+    color: #333;
+}
+#fejresz {
+    background-image: url(kepek/gears-1236578_1280.jpg);
+    background-size: cover;
+    margin: none;
+    padding: none;
+    height: 400px;
+}
+#szemelyes {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: lightgray 1px solid;
+}
+#szemelyes span {
+    color: #FFAD01;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #FFAD01;
+}
+
+a:hover {
+    color: #333;
+}
+
+#projekt img {
+    width: 300px;
+    padding: 5px;
+}
+#projekt h2 {
+    padding-left: 100px;
+}
+.bal {
+    width: 400px;
+    padding-left: 100px;
+}
+.jobb {
+    padding-left: 20px;
+    border-left: #333 solid;
+}
+.elvalaszto {
+    line-height: 2em;
+}
+.elvalaszto hr {
+    margin: 20px 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: #FFAD01;
+}
+h4 {
+    color: #FFAD01;
+}
+div.kozep div {
+    float: left;
+}
+div.elvalaszto {
+    clear: both;
+}
+footer {
+    clear: both;
+    text-align: center;
+    font-size: small;
+    color: #FFAD01;
+    background-color: #333;
+    line-height: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav  li {
+    float: left;
+  }
+  
+nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    background-color: #FFAD01;
+  }
+
+#social {
+    text-align: center;
+}
+ion-icon {
+    color: #FFAD01;
+  }
+
+#profil {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+}
+
+.active {
+    background-color: #FFAD01;
+    color: #333
+}
+
+article {
+    padding: 20px;
+}
+article p {
+    text-align: justify;
+    text-indent: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    line-height: 1.4em;
+    margin: 0 50px;
+}
